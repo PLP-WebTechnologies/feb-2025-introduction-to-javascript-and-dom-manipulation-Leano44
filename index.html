@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="title">Welcome to My Page</h1>
+    <p id="description">This text will be dynamically changed.</p>
+    
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleHighlight()">Highlight Text</button>
+    <button onclick="toggleElement()">Add/Remove Element</button>
+
+    <div id="dynamicElement"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
